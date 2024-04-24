@@ -1,0 +1,79 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 80vh;
+    background: #dddcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    width: 35rem;
+    height: 48rem;
+    background: #FFF;
+    border-radius: 5px;
+}
+
+.logo-container {
+    width: 100%;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 15rem;
+    height: 15rem;
+    background: rgb(250, 165, 9);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.form-container input, .form-container button {
+    display: block;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.form-container input {
+    background: #F2F2F2;
+}
+
+.form-container button {
+    background: rgb(250, 165, 9);
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.box-login p {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box-login p > a {
+    text-decoration: none;
+    color: salmon;
+}
